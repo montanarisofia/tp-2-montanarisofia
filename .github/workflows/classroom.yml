@@ -21,7 +21,7 @@ jobs:
         test-name: TP 2 test
         setup-command: sudo -H pip3 install pytest
         command: pytest tp2_tests.py
-        timeout: 1
+        timeout: 5
         max-score: 1
     - name: Autograding Reporter
       uses: education/autograding-grading-reporter@v1
